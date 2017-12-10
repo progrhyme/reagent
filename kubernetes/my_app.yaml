@@ -70,7 +70,7 @@ spec:
     spec:
       containers:
       - name: reagent-app
-        image: "progrhyme/reagent-my_app:latest"
+        image: "localhost:5000/progrhyme/reagent-my_app:v1"
         ports:
         - name: webapp
           containerPort: 3000
